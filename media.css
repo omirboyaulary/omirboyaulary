@@ -160,3 +160,9 @@
       }
   } 
   }
+
+  @media screen and (max-width: 500px) {
+    iframe{
+      height: 10rem;
+    }
+  }   
