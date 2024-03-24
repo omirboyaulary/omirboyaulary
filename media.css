@@ -22,7 +22,12 @@
         padding: 1px 3px; /* Уменьшение внутренних отступов кнопок */
     }
   }
-
+  @media only screen and (max-width: 410px) {
+    .btn{
+        font-size: 10px; /* Уменьшение размера шрифта */
+        padding: 1px 3px; /* Уменьшение внутренних отступов кнопок */
+    }
+  }
   @media only screen and (max-width: 391px) {
     .btn{
         font-size: 10px; /* Уменьшение размера шрифта */
@@ -33,6 +38,12 @@
   @media only screen and (max-width: 376px) {
     .btn{
         font-size: 10px; /* Уменьшение размера шрифта */
+        padding: 1px 1px; /* Уменьшение внутренних отступов кнопок */
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .btn{
+        font-size: 8px; /* Уменьшение размера шрифта */
         padding: 1px 1px; /* Уменьшение внутренних отступов кнопок */
     }
   }
@@ -97,15 +108,15 @@
     }
   }   
 
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 370px) {
 
     .blud th {
-        font-size: 5px;
+        font-size: 4px;
     }
     /* Изменить стили ячеек с изображениями */
     .blud td {
       text-align: center;
-      font-size: 5px;
+      font-size: 4px;
     }
   } 
   
@@ -119,7 +130,7 @@
         font-size: 8px;
     }
     /* Изменить стили ячеек с изображениями */
-    .blud td {
+    .blood td {
       text-align: center;
       font-size: 8px;
     }
@@ -147,7 +158,7 @@
       text-align: center;
       font-size: 6px;
     }
-
+  }
     @media screen and (max-width: 380px) {
 
       .blood th {
@@ -159,7 +170,19 @@
         font-size: 6px;
       }
   } 
-  }
+
+  @media screen and (max-width: 370px) {
+
+    .blood th {
+        font-size: 4px;
+    }
+    /* Изменить стили ячеек с изображениями */
+    .blood td {
+      text-align: center;
+      font-size: 3px;
+    }
+}
+  
 
   @media screen and (max-width: 500px) {
     iframe{
