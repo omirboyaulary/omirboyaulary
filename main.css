@@ -1,0 +1,127 @@
+body {
+  background-color: bisque;
+}
+.card {
+  margin: auto auto;
+  margin-top: 5%;
+  width: 80%;
+  height: 10%;
+}
+.card img {
+  display: flex;
+
+  width: 100%;
+  height: auto;
+}
+.btnscolor p{
+  background-color: #0d6efd;
+}
+.card-body {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 100%;
+}
+ .menu li {
+  margin-top: 1%;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+menu {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+} 
+.text {
+  background-color: slategray;
+}
+.collapse {
+  border: 0;
+  margin: auto auto;
+}
+.card-text1 {
+  position: relative;
+}
+.card-body {
+  width: 100%;
+}
+.col-md-4 img {
+  align-items: center;
+  justify-content: center;
+}
+.card-text1 p {
+  background-color: white;
+}
+.foca{
+  margin-bottom: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+.ubrat{
+    
+    margin-top: 15%;
+}
+.ubrat p{
+    margin-top:15%;
+}
+.card-title{
+    position: relative;
+    margin-top: 3%;
+}
+.ubrat1{
+    background-color: white;
+}
+
+.btndiagnostika p {
+  padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.btn2{
+    margin-top: 5%;
+}
+.btndiagnostika p :first-child{
+    margin-top: -1%;
+}
+.expression-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expression-table th, .expression-table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.expression-table th {
+  background-color: #f2f2f2;
+}
+
+.expression-table img {
+  margin: auto auto;
+  align-items: center;
+  width: 50px;
+  height: auto;
+}
+.cofe img{
+  width: 50%;
+  height: 50%;
+} 
+
+.cofe{
+  max-width: 100%;
+}
+.xpression-table{
+  max-width: 100%;
+}

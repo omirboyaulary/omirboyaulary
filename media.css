@@ -1,0 +1,162 @@
+@media only screen and (max-width: 758px) {
+    .btn{
+        font-size: 14px; /* Уменьшение размера шрифта */
+        padding: 5px 10px; /* Уменьшение внутренних отступов кнопок */
+    }
+  }
+
+  @media only screen and (max-width: 565px) {
+    .tabe{
+      margin-top: 2%;
+      transform: translateY(-55%);
+    }
+    .btn{
+        font-size: 12px; /* Уменьшение размера шрифта */
+        padding: 3px 5px; /* Уменьшение внутренних отступов кнопок */
+    }
+  }
+
+  @media only screen and (max-width: 460px) {
+    .btn{
+        font-size: 11px; /* Уменьшение размера шрифта */
+        padding: 1px 3px; /* Уменьшение внутренних отступов кнопок */
+    }
+  }
+
+  @media only screen and (max-width: 391px) {
+    .btn{
+        font-size: 10px; /* Уменьшение размера шрифта */
+        padding: 1px 1px; /* Уменьшение внутренних отступов кнопок */
+    }
+  }
+
+  @media only screen and (max-width: 376px) {
+    .btn{
+        font-size: 10px; /* Уменьшение размера шрифта */
+        padding: 1px 1px; /* Уменьшение внутренних отступов кнопок */
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+
+    .expression-table th {
+        font-size: 10px;
+    }
+    /* Изменить стили ячеек с изображениями */
+    .expression-table td {
+      text-align: center;
+      font-size: 10px;
+    }
+    
+    /* Уменьшить размер изображений */
+    .expression-table td img {
+      width: 50px; /* Или любой другой подходящий размер */
+      height: auto;
+    }
+  }  
+
+  @media screen and (max-width: 470px) {
+
+    .expression-table th {
+        font-size: 10px;
+    }
+    /* Изменить стили ячеек с изображениями */
+    .expression-table td {
+      text-align: center;
+      font-size: 10px;
+    }
+    
+    /* Уменьшить размер изображений */
+    .expression-table td img {
+      width: 50px; /* Или любой другой подходящий размер */
+      height: auto;
+    }
+  }    
+
+  @media screen and (max-width: 440px) {
+
+    .blud th {
+        font-size: 8px;
+    }
+    /* Изменить стили ячеек с изображениями */
+    .blud td {
+      text-align: center;
+      font-size: 8px;
+    }
+  }   
+
+  @media screen and (max-width: 391px) {
+
+    .blud th {
+        font-size: 7px;
+    }
+    /* Изменить стили ячеек с изображениями */
+    .blud td {
+      text-align: center;
+      font-size: 7px;
+    }
+  }   
+
+  @media screen and (max-width: 350px) {
+
+    .blud th {
+        font-size: 5px;
+    }
+    /* Изменить стили ячеек с изображениями */
+    .blud td {
+      text-align: center;
+      font-size: 5px;
+    }
+  } 
+  
+  
+  /* ////// */
+
+
+  @media screen and (max-width: 500px) {
+
+    .blood th {
+        font-size: 8px;
+    }
+    /* Изменить стили ячеек с изображениями */
+    .blud td {
+      text-align: center;
+      font-size: 8px;
+    }
+  }   
+
+  @media screen and (max-width: 465px) {
+
+    .blood th {
+        font-size: 7px;
+    }
+    /* Изменить стили ячеек с изображениями */
+    .blood td {
+      text-align: center;
+      font-size: 7px;
+    }
+  }   
+
+  @media screen and (max-width: 420px) {
+
+    .blood th {
+        font-size: 6px;
+    }
+    /* Изменить стили ячеек с изображениями */
+    .blood td {
+      text-align: center;
+      font-size: 6px;
+    }
+
+    @media screen and (max-width: 380px) {
+
+      .blood th {
+          font-size: 5px;
+      }
+      /* Изменить стили ячеек с изображениями */
+      .blood td {
+        text-align: center;
+        font-size: 6px;
+      }
+  } 
+  }
